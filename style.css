@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&family=Urbanist:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 100;
+}
+
+body{
+    background-color: black;
+}
+footer{
+    background-color: rgb(0, 0, 0) ;
+    color: white;
+    font-size: large;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    background-color: hwb(240 2% 97%);
+}
+.Logo img{
+    transition-duration: 0.5s;
+    margin-top: -1px;
+}
+.Logo img:hover{
+    filter: drop-shadow(1px 1px 30px grey);
+    transform:scale(0.9);
+}
+ul{background-color: rgb(255,163,26);color: white;display: flex;align-items: center;justify-content: center;height: 35px;}
+nav ul{
+    transform: scaleX(50px);
+    border-radius: 50px;
+}
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    font-size: large;  
+}
+nav ul li a{
+    color: white;
+    padding: 7px 15px;
+    transition-duration: 0.5s;
+}
+li a:hover{
+    transform: scale(1.2);
+    transition-timing-function: ease-out;
+    background-color: hwb(240 5% 81%);
+    text-shadow: 0px 0px 7px white;
+    
+}
+.badges{
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: 6px;
+    transition-duration: 0.5s;
+}
+.badges img{
+    margin: auto;
+    padding: 20px;
+    border-radius: 100%;
+    justify-content: space-evenly;
+    border-color: black;
+    border-width: thick;
+    transition-duration: 0.5s;
+}
+.badges img:hover{
+    transform: scale(0.8);
+    transition-timing-function: ease-out;
+    filter: drop-shadow(1px 1px 30px grey);
+
+}
+.items{
+    color: black;
+    font-weight: bolder;
+    margin: 30px;
+    background-color: rgb(27,27,27);
+    height: 2500px;
+    font-size: x-large;
+    font-weight: bolder;
+    border-radius: 50px;
+}
+.items h2{
+    margin-left: 64px;
+    font-weight: bold;
+    font-size: larger;
+    height: 50px;
+    transition-duration: 0.2s;
+    color: rgb(128,128,128);
+}
+.peach{
+  margin-top: 12px;
+    color: black;
+    font-weight: bolder;
+    margin: 30px;
+    background-color: rgb(27,27,27);
+    height: 900px;
+    font-size: x-large;
+    font-weight: bolder;
+    border-radius: 50px;
+    align-items: center;
+    text-align: center;
+}
+.ph{
+    color: black;
+    font-weight: bolder;
+    background-color: rgb(27,27,27);
+    height: 100px;
+    font-size: x-large;
+    font-weight: bolder;
+    background-color: black;
+    align-items: center;
+    margin: auto;
+    width: 5000px;
+    padding: 10px;
+}
+.peach img{
+  align-items: center;
+  border-radius: 50%;
+  margin: auto;
+  justify-content: space-evenly;
+  padding: 20px;
+  transition-duration: 0.5s;
+}
+.peach img:hover{
+    transform: scale(0.8);
+    transition-timing-function: ease-out;
+    filter: drop-shadow(1px 1px 25px grey);
+    
